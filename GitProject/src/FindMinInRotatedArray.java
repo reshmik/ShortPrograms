@@ -9,7 +9,6 @@ int mid = A.length/2;
 int last = A.length-1;
 if(A[mid]>A[last]) return binarySearch(A,mid,last);
 else return binarySearch(A,0,mid);
-
 }
 
 public int binarySearch(int[] A, int mid, int last)
